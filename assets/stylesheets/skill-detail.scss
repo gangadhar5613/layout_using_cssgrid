@@ -1,0 +1,39 @@
+.skill-detail{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   justify-content: center;
+   align-items: center;
+    color: white;
+}
+
+.skill-detail-1{
+    display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+    background-color: #ECAF4E;
+    padding:3em;
+}
+
+.skill-detail-1 i{
+    padding-bottom: 1em;
+    font-size: 2.8em;
+}
+
+.skill-detail-1 h3{
+    padding-bottom: 1em;
+    font-size: 1.5em;
+}
+
+.media{
+    background-color: #F9673D;
+}
+
+.mobile-app{
+    background-color: black;
+}
+
+.coding{
+    background-color: white;
+    color: black;
+}

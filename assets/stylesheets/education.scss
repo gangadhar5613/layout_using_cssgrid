@@ -1,0 +1,39 @@
+.edu-img{
+    background: url('/assets/media/education-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.education{
+  
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+
+
+.edu-info{
+    padding: 4em;
+    background-color: #ECAF4E;
+    color: white;
+}
+.edu-info h2{
+    font-size: 2em;
+    padding-bottom: .5em;
+}
+.edu-info i{
+    font-size: 2.8em;
+}
+
+.edu-info-1{
+ padding-bottom: .5em;
+}
+
+.edu-info p{
+    padding-bottom: 2.5em;
+}
+
+.edu-info span{
+    color: #684c07;
+}

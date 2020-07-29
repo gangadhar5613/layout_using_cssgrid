@@ -1,0 +1,122 @@
+.contact{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    background-color: #F9673D;
+}
+
+.map{
+    text-align: center;
+    padding: 2em;
+}
+.map iframe{
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.contact-form{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+}
+
+.form-col{
+   
+    background-color: #F9673D;
+    color: white;
+    padding: 2em;
+  
+    display: grid;
+    align-items: center;
+    
+    
+}
+
+.form-col h3{
+  font-size: 2.5em;
+ 
+  
+}
+
+
+
+
+
+.form-btn{
+    border: none;
+}
+.contact-col{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.cnt-img img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+    
+}
+
+.contact input,textarea{
+    border:none;
+    background: none;
+   border-bottom: .5px solid yellow;
+}
+
+::placeholder{
+    color: white;
+    padding-top: .8em;
+   align-items: center;
+}
+
+
+.contact-info{
+    background-color: black;
+    color: white;
+   padding:3em 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info h3{
+    font-size: 2.5em;
+    padding-bottom: .3em;
+}
+
+.contact-info address{
+    padding-bottom: 2.5em;
+    color: gray;
+}
+
+.contact-info h4{
+    font-size: 2.5em;
+    padding-bottom: .4em;
+}
+
+.contact-data a{
+ color: gray;
+}
+
+.icons{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+.icons i{
+    padding-right: .4em;
+    color: gray;
+}
+
+.icons .yellow{
+    color: yellow;
+}
+
+
+.map{
+    grid-row-start: span;
+}

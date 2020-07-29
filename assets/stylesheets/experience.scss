@@ -1,0 +1,53 @@
+.exp-img{
+    background: url('/assets/media/experience-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.experience{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.experiences{
+    display: grid;
+    padding: 4em;
+    background-color: #F9673D;
+    color: white;
+   
+}
+
+.experiences h2{
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+.experiences p{
+    padding-bottom: 1em;
+}
+
+.experiences i{
+    font-size: 2.5em;
+}
+
+.grp-dsgn{
+    display: grid;
+    grid-template-columns:30px 500px;
+    grid-gap: 40px;
+   
+}
+
+.info-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-bottom: .5em;
+    align-items: center;
+
+}
+
+.info-1 span{
+    color: #681013;
+    font-weight: 600;
+}

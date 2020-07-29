@@ -1,0 +1,61 @@
+
+
+.hd-logo{
+    color: rgb(41, 39, 39);
+    font-size: 1.5em;
+    font-weight: 600;
+    text-shadow:.03em .03em white ;
+    
+}
+
+
+#toggle{
+    display: none;
+
+}
+.bar{
+    display: none;
+}
+
+.hd-grid{
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+   align-items: center;
+   justify-content: center;
+   height: 50px;
+}
+
+.header{
+    padding-top:1em;
+}
+
+.main-nav{
+    display: grid;
+  
+    align-items: center;
+   
+}
+
+.nav-items{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-items li a{
+    font-size: .8em;
+  color: gray;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.nav-items li a:hover{
+    color: yellowgreen;
+}
+
+
+
+
+
+
